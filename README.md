@@ -7,11 +7,11 @@ Como uma instituição quero cadastrar um novo curso no site
 
 ### CT 001: Cadastro de um novo curso online
 
-###### **Given** Acesso o site e clico em cadastrar curso.
-###### **And** Preencho todos os campos com as informações do curso
-###### **And** No campo “Tipo de curso” seleciono a opção “Online”
-###### **When** Clico em “Cadastrar Curso”
-###### **Then** O curso será cadastrado e aparecerá na lista;
+##### **Given** Acesso o site e clico em cadastrar curso.
+##### **And** Preencho todos os campos com as informações do curso
+##### **And** No campo “Tipo de curso” seleciono a opção “Online”
+##### **When** Clico em “Cadastrar Curso”
+##### **Then** O curso será cadastrado e aparecerá na lista;
 
 ### CT 002: Cadastro de um novo curso presencial
 
