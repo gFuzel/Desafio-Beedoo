@@ -5,7 +5,7 @@ Como uma instituição quero cadastrar um novo curso no site
 ## Cenários - Cadastro de cursos
 ##
 
-###CT 001: Cadastro de um novo curso online###
+### CT 001: Cadastro de um novo curso online###
 
 **Given** Acesso o site e clico em cadastrar curso.
 **And** Preencho todos os campos com as informações do curso
