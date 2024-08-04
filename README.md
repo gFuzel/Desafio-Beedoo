@@ -15,19 +15,19 @@ Como uma instituição quero cadastrar um novo curso no site
 
 ### CT 002: Cadastro de um novo curso presencial
 
-**Given** Acesso o site e clico em cadastrar curso;
-**And** Preencho todos os campos com as informações do curso
-**And** No campo “Tipo de curso” seleciono a opção “Presencial”
-**When** Clico em “Cadastrar Curso”
-**Then** O curso será cadastrado e aparecerá na lista;
+##### **Given** Acesso o site e clico em cadastrar curso
+##### **And** Preencho todos os campos com as informações do curso
+##### **And** No campo “Tipo de curso” seleciono a opção “Presencial”
+##### **When** Clico em “Cadastrar Curso”
+##### **Then** O curso será cadastrado e aparecerá na lista;
 
 ### CT 003: Cadastro de curso com data inválida.
 
-**Given** Acesso o site e clico em cadastrar curso.
-**And** Preencho todos os campos com as informações do curso
-**And** No campo "Data de início" e "Data de fim" preencho com uma data inválida
-**When** Clico em “Cadastrar Curso”
-**Then** O site apresenta uma mensagem informando que as datas estão incorretas;
+##### **Given** Acesso o site e clico em cadastrar curso.
+##### **And** Preencho todos os campos com as informações do curso
+##### **And** No campo "Data de início" e "Data de fim" preencho com uma data inválida
+##### **When** Clico em “Cadastrar Curso”
+##### **Then** O site apresenta uma mensagem informando que as datas estão incorretas;
 
 # User Story: Listar Cursos
 Como usuário do site quero encontrar um curso ao qual atenda minhas necessidades.
@@ -35,9 +35,9 @@ Como usuário do site quero encontrar um curso ao qual atenda minhas necessidade
 ## Cenários - Listar cursos
 
 ### CT 004: Listar cursos existentes
-**Given** Acesso o site
-**And** Clico em "Listar Cursos"
-**Then** Todos os cursos cadastrados no site serão apresentados na tela;
+##### **Given** Acesso o site
+##### **And** Clico em "Listar Cursos"
+##### **Then** Todos os cursos cadastrados no site serão apresentados na tela;
 
 # User Story: Excluir curso
 Como instituição que já tenha cursos cadastrados na plataforma, desejo remover um curso que não aceita mais inscrições.
@@ -45,11 +45,11 @@ Como instituição que já tenha cursos cadastrados na plataforma, desejo remove
 ## Cenários - Excluir cursos
 
 ### CT 005: Excluir curso
-**Given** Acesso o site
-**And** Clico em "Listar Cursos"
-**And** Todos os cursos cadastrados no site serão apresentados na tela;
-**And** Clico em "Excluir curso"
-**Then** O site apresenta uma mensagem e o curso será excluído;
+##### **Given** Acesso o site
+##### **And** Clico em "Listar Cursos"
+##### **And** Todos os cursos cadastrados no site serão apresentados na tela;
+##### **And** Clico em "Excluir curso"
+##### **Then** O site apresenta uma mensagem e o curso será excluído;
 
 ## Notas
 
