@@ -15,7 +15,7 @@ Como uma instituição quero cadastrar um novo curso no site
 
 ### CT 002: Cadastro de um novo curso presencial
 
-**Given** Acesso o site e clico em cadastrar curso.
+**Given** Acesso o site e clico em cadastrar curso;
 **And** Preencho todos os campos com as informações do curso
 **And** No campo “Tipo de curso” seleciono a opção “Presencial”
 **When** Clico em “Cadastrar Curso”
@@ -66,9 +66,3 @@ https://docs.google.com/spreadsheets/d/1OmszAVo1IDj8wUqpnaXyAdBQO0ELkLDyEpCH37q4
 ## Planilha com relatório de erros encontrados
 https://docs.google.com/spreadsheets/d/1BHr404D7k1UK0oqIR60xTaDhZhEmAgmlJmwqTDMUD-E/edit?usp=sharing
 
-### Cenário 1: Redefinição de senha com sucesso
-Dado que o usuário está na página de login
-E o usuário clicou em "Esqueci minha senha"
-Quando o usuário insere seu endereço de e-mail registrado e clica em "Enviar"
-Então um e-mail com um link para redefinição de senha deve ser enviado ao usuário
-E o usuário deve ver uma mensagem de confirmação informando que o e-mail foi enviado
